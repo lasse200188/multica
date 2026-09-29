@@ -134,6 +134,7 @@
     "./wecom": "./wecom/index.ts",
     "./wecom/queries": "./wecom/queries.ts",
     "./telegram": "./telegram/index.ts",
+    "./custom-telegram": "./custom-telegram/index.ts",
     "./telegram/queries": "./telegram/queries.ts",
     "./feedback": "./feedback/index.ts",
     "./feedback/mutations": "./feedback/mutations.ts",
