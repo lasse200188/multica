@@ -615,7 +615,8 @@ func main() {
 	registerSubscriberListeners(bus, pool)
 	registerActivityListeners(bus, queries)
 	registerNotificationListeners(bus, queries)
-	registerCustomProjectStatus(bus, pool, queries) // custom: see CUSTOM.md
+	registerCustomProjectStatus(bus, pool, queries)  // custom: see CUSTOM.md
+	registerCustomTelegramNotify(bus, pool, queries) // custom: see CUSTOM.md
 
 	metricsConfig := obsmetrics.ConfigFromEnv()
 	var metricsServer *http.Server
